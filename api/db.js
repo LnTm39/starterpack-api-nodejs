@@ -8,10 +8,10 @@ const mysql = require('mysql2/promise');
 //On utilise l'utilisateur 'user' qui a des droits restreints (DQL, DML)
 //Remarque : il faudrait déplacer le DSN en dehors du code dans un fichier d'environnement (laissé en exercice)
 const dsn = {
-    host: 'db',
-    database: 'mydb',
-    user: 'user',
-    password: 'password',
+    host: 'localhost',
+    database: 'badminton',
+    user: 'root',
+    password: '',
 }
 
 /**
